@@ -8,18 +8,39 @@
 
 @media @tablet {
     // Testing Media Queries
-        body {
-            background-color: red;
+        // body {
+        //     background-color: red;
+        // }
+
+        .home .space-images {
+            // flex-direction: column;
+            justify-content: center;
+            .launch{
+                display: none;
+            }
+            img {
+                width: 40%;
+            }
         }
     // -- //
 }
 
 
-
 @media @phone {
     // Testing Media Queries
-        body {
-            background-color: orange;
-        }
+        // body {
+        //     background-color: orange;
+        // }
     // -- //
+
+    .home .space-images {
+        // flex-direction: column;
+        justify-content: center;
+        .sky {
+            display: none;
+        }
+        img {
+            width: 80%;
+        }
+    }
 }
