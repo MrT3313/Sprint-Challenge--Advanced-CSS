@@ -1,4 +1,30 @@
 
+
+.navigationWrapper {
+  .flexParent(@direction: column);
+
+  .navTitle {
+    font-size: 3rem;
+    margin-bottom: 2rem;
+  }
+  .nav {
+    font-size: 1.5rem;
+    width: 100%;
+    .flexParent(@justify: center);
+
+    a {
+      margin-right: 2.5rem;
+      text-decoration: none; 
+      color: black;
+    }
+  }  
+
+  padding: 15px 0;
+  background-color: @border-real;
+  border-bottom: 1px solid @nav-border;
+}
+
+
 .home {
 
   .intro {
