@@ -1,7 +1,7 @@
 
 // -- ESCAPES -- // 
 
-@tablet: ~"(max-width:800px)";
+@tablet: ~"(max-width:700px)";
 @phone: ~"(max-width:500px)";
 
 // -- MEDIA QUERIES -- //
@@ -20,6 +20,22 @@
             }
             img {
                 width: 40%;
+            }
+
+        }
+        .home .walk {
+            flex-direction: column-reverse;
+            align-items: center;
+
+            .walk-text, .walk-img {
+                width: 90%;
+            }
+        }
+
+        .walk-text {
+            .flexParent(@direction: column;);
+            .btn {
+                width: 90%;
             }
         }
     // -- //
@@ -42,5 +58,6 @@
         img {
             width: 80%;
         }
+
     }
 }

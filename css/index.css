@@ -272,7 +272,7 @@ footer {
 footer {
   margin-bottom: 30px;
 }
-@media (max-width:800px) {
+@media (max-width:700px) {
   .home .space-images {
     justify-content: center;
   }
@@ -281,6 +281,23 @@ footer {
   }
   .home .space-images img {
     width: 40%;
+  }
+  .home .walk {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .home .walk .walk-text,
+  .home .walk .walk-img {
+    width: 90%;
+  }
+  .walk-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .walk-text .btn {
+    width: 90%;
   }
 }
 @media (max-width:500px) {
