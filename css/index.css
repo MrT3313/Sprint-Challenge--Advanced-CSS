@@ -247,3 +247,15 @@ footer {
   height: auto;
   border-radius: 10px;
 }
+.btn {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 30px;
+  width: 35%;
+  background-color: #22283A;
+  color: white;
+  border-radius: 5px;
+  font-size: 1.5rem;
+}
