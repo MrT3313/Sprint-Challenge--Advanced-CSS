@@ -259,3 +259,16 @@ footer {
   border-radius: 5px;
   font-size: 1.5rem;
 }
+footer {
+  margin-bottom: 30px;
+}
+@media (max-width:800px) {
+  body {
+    background-color: red;
+  }
+}
+@media (max-width:500px) {
+  body {
+    background-color: orange;
+  }
+}
